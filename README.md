@@ -1,13 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+##### Health Track
 
-Things you may want to cover:
+Health/Diet Tracker for Personal use.
 
-* Ruby version
+* Ruby version 2.3.3
 
-* System dependencies
+<!-- * System dependencies
 
 * Configuration
 
@@ -21,4 +20,4 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+* ... -->
