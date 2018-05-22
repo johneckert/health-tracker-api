@@ -13,6 +13,7 @@ class Days < ActiveRecord::Migration[5.1]
       t.boolean :after_meal_walk_pm
       t.text :joyful_movement
       t.text :presleep_routine
+      t.text :date
       t.belongs_to :user, foreign_key: true, index: true
       t.timestamps
     end

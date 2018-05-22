@@ -28,6 +28,7 @@ ActiveRecord::Schema.define(version: 20180507202800) do
     t.boolean "after_meal_walk_pm"
     t.text "joyful_movement"
     t.text "presleep_routine"
+    t.text "date"
     t.bigint "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -44,6 +45,7 @@ ActiveRecord::Schema.define(version: 20180507202800) do
     t.float "weight"
     t.float "waist"
     t.float "body_fat"
+    t.text "date"
     t.bigint "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

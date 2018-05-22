@@ -4,6 +4,7 @@ class Weeks < ActiveRecord::Migration[5.1]
       t.float :weight
       t.float :waist
       t.float :body_fat
+      t.text :date
       t.belongs_to :user, foreign_key: true, index: true
       t.timestamps
     end
